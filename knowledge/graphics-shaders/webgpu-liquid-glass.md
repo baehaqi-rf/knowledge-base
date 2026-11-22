@@ -18,7 +18,8 @@ triggers:
   - "dual-kawase blur compute shader"
   - "dom to gpu texture backdrop"
   - "frosted glass ui overlay webgpu"
-related: []
+related:
+  - "kb-design-ios-liquid-glass-cross-platform-v1"
 sources:
   - title: "WebGPU :: Re-Creating Apple's Liquid Glass (Arya Salehi / arya 3d)"
     url: "https://youtu.be/lq-ikfNVx7g"

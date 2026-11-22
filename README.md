@@ -13,6 +13,8 @@ knowledge-base/
 ├── _templates/
 │   └── kb-entry-template.md                   # Standard schema for authoring new entries
 └── knowledge/
+    ├── design-systems/
+    │   └── ios-liquid-glass-cross-platform.md # Cross-platform iOS Liquid Glass (Android & Web)
     ├── graphics-shaders/
     │   └── webgpu-liquid-glass.md             # Production Apple Liquid Glass (WebGPU/WGSL)
     ├── frontend-architecture/                 # (Reserved) React, Next.js, CSS, Design Systems

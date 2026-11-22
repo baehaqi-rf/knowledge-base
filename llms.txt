@@ -7,12 +7,17 @@
 - Read only entries whose triggers match the current engineering task.
 - Treat `Production Architecture` and `Agent Guardrails` sections as hard architectural constraints.
 - Do not mix prototype baseline patterns with production blueprints.
+- When implementing Web Liquid Glass UI end-to-end, read **both** the Cross-Platform Design System entry (for UI hierarchy, tokens, and component rules) and the WebGPU Liquid Glass entry (for WGSL shader and overlay pipeline invariants).
 
 ## Knowledge Index
 
+### Design Systems & Cross-Platform UI
+
+- [Cross-Platform iOS Liquid Glass Design System & Architecture (Android & Web)](knowledge/design-systems/ios-liquid-glass-cross-platform.md): Use when designing or implementing iOS 26/27-style Liquid Glass UI on **Android Mobile** (Expo / React Native, Skia, AGSL, `RenderEffect`) or **Web** (React / Next.js / Tailwind CSS), including floating tab bars, navbars, morphing dropdowns, HUD overlays, concentric corner radii, card legibility rules, and 3-tier hardware degradation.
+
 ### Graphics & Shaders
 
-- [Production WebGPU Liquid Glass Architecture](knowledge/graphics-shaders/webgpu-liquid-glass.md): Use when building, auditing, or optimizing Apple-style Liquid Glass UI effects, real-time refraction, SDF rounded boxes, liquid element merging (`smin`), Dual-Kawase blur compute shaders, WebGPU/WGSL overlay pipelines, or WebGL2/CSS+SVG fallbacks.
+- [Production WebGPU Liquid Glass Architecture](knowledge/graphics-shaders/webgpu-liquid-glass.md): Use when building, auditing, or optimizing low-level WebGPU/WGSL shaders for Apple-style Liquid Glass, real-time SDF gradient refraction, liquid element merging (`smin`), Dual-Kawase blur compute shaders, DOM-to-GPU backdrop pipelines, or WebGL2/CSS+SVG fallbacks.
 
 ## Templates & Standards
 
