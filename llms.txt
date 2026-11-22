@@ -1,0 +1,19 @@
+# knowledge-base
+
+> Centralized, high-signal engineering knowledge hub optimized for AI coding agents and RAG systems. Always read this index first, select only the matching entry based on the trigger conditions below, and strictly obey all `MUST` / `NEVER` guardrails inside the target document.
+
+## Agent Retrieval Rules
+
+- Read only entries whose triggers match the current engineering task.
+- Treat `Production Architecture` and `Agent Guardrails` sections as hard architectural constraints.
+- Do not mix prototype baseline patterns with production blueprints.
+
+## Knowledge Index
+
+### Graphics & Shaders
+
+- [Production WebGPU Liquid Glass Architecture](knowledge/graphics-shaders/webgpu-liquid-glass.md): Use when building, auditing, or optimizing Apple-style Liquid Glass UI effects, real-time refraction, SDF rounded boxes, liquid element merging (`smin`), Dual-Kawase blur compute shaders, WebGPU/WGSL overlay pipelines, or WebGL2/CSS+SVG fallbacks.
+
+## Templates & Standards
+
+- [KB Entry Template](_templates/kb-entry-template.md): Use when authoring or refactoring a new knowledge base document in this repository.
