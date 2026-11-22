@@ -11,6 +11,10 @@
 
 ## Knowledge Index
 
+### AI Agents & Media Workflows
+
+- [Autonomous AI Video Editing Architecture with Claude/Antigravity, Remotion, FFmpeg & Whisper](knowledge/ai-agents-workflows/ai-video-editor-remotion-pipeline.md): Use when building or executing AI-driven video editing pipelines (`raw/`, `references/`, `done/`, `style.md`, `edl.json`) using Claude Code or Antigravity with **Remotion**, **FFmpeg** (`npx remotion ffmpeg`, adaptive 2-pass `loudnorm` + `silencedetect`), **Faster-Whisper** / `@remotion/whisper-webgpu` word-level captions, **yt-dlp** reference ingestion, **HyperFrames** / `<HtmlInCanvas>`, and automatic retake deduplication.
+
 ### Design Systems & Cross-Platform UI
 
 - [Cross-Platform iOS Liquid Glass Design System & Architecture (Android & Web)](knowledge/design-systems/ios-liquid-glass-cross-platform.md): Use when designing or implementing iOS 26/27-style Liquid Glass UI on **Android Mobile** (Expo / React Native, Skia, AGSL, `RenderEffect`) or **Web** (React / Next.js / Tailwind CSS), including floating tab bars, navbars, morphing dropdowns, HUD overlays, concentric corner radii, card legibility rules, and 3-tier hardware degradation.
